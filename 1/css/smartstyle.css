@@ -1,0 +1,44 @@
+/* スマートフォン用 */
+@media screen and (max-width: 479px) {
+    body > div {
+        width: 200px;
+    }
+
+    .header {
+        height: auto;
+    }
+    
+    .header > .box3 {
+        position: static;
+        display: block;
+        padding: 20px 0;
+    }
+
+    .header > .box3 > div {
+        margin: 0 auto;
+    }
+
+    .header > .box3 > div:nth-child(n + 2) {
+        margin-left: auto;
+        margin-top: -10px;
+    }
+
+    .main {
+        display: block;
+        height: auto;
+    }
+
+    .main > .left {
+        width: auto;
+        height: 100px;
+    }
+
+    .main > .right {
+        width: auto;
+    }
+
+    .main > .right > .box3 {
+        position: static;
+        padding: 20px 0 20px 30px;
+    }
+ }
